@@ -1,0 +1,11 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    namespace 'com.controleonline.pos.cielo.payment'
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+'
+}

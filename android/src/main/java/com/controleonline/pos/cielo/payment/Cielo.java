@@ -1,4 +1,4 @@
-package com.controleonline.pos.cielo;
+package com.controleonline.pos.cielo.payment;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
