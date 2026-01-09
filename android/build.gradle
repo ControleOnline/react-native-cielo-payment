@@ -4,6 +4,18 @@ plugins {
 
 android {
     namespace 'com.controleonline.pos.cielo.payment'
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 21
+        targetSdk 34
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+        }
+    }
 }
 
 dependencies {
